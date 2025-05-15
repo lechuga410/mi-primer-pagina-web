@@ -1,0 +1,202 @@
+body{
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   
+      background-image: url(img/cadena\ negra\ horizontal.jpg);
+      h2 {
+        color: aliceblue;
+      }
+       p {
+        color: aliceblue;
+
+      }
+    
+    
+
+
+    
+}
+
+
+header{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    font-family: cursive;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    p {
+        color: rgb(0, 0, 0); 
+
+      }
+    
+}
+    
+
+header h1{
+    color: rgb(5, 5, 5);
+    flex: 1;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 0 15px; color: rgb(0, 0, 0);
+    background-image: url(img/b.jpg);
+    background-position: center;
+    
+}
+
+
+img.logo2{  width: 100px;
+    width: 100px;
+    height: auto;
+    border-radius: 10px;}
+    
+
+img.logo {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    }
+
+
+ nav ul{list-style-type: lower-latin;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    color: rgb(0, 255, 255);}
+
+ nav ul li{display: inline;
+    margin-right: 20px;}
+
+ nav ul li a{display: inline;
+    color: aqua;
+    text-decoration: double;
+    }
+nav ul li a:hover{
+    color: black;
+    background-color: aqua;
+    padding: 0;
+    margin: 10px;
+    box-shadow: 0 0 12px; color: rgb(255, 65, 214);
+}
+.container{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    p {
+        color: rgb(255, 255, 255); 
+
+      }
+  }
+  .sobre-la-vida {
+    h2 { color: rgb(255, 255, 255);}
+    p { color: rgb(255, 255, 255);}
+   
+  }
+
+  .proyectos-de-vida{ 
+    h2 {  color: rgb(255, 255, 255); }
+    p {  color: rgb(255, 255, 255);}
+   
+  }
+
+.section{ 
+    padding: auto;
+    background-color: aqua;
+    border-radius: 20px;
+    box-shadow: color(srgb rgb(0, 0, 0) rgb(255, 68, 5) rgb(108, 108, 146));
+}
+
+.section h2 { 
+    padding: auto;
+}
+
+.formulario{ max-width: 500px;
+margin: 50px auto;
+color: darkgray;
+background-color: rgb(255, 255, 255);
+border-radius: 20px;
+box-shadow: 0 0 12px; color: rgb(0, 0, 0);
+background-image: url(img/pjaros.gif);
+textarea {
+    resize: none;
+  }
+  
+}
+
+.formulario h2{ margin-bottom: 20px;
+text-align: center;
+color: black;}
+
+.campo{margin-bottom: 20px;}
+input[type="text"],
+input[type="nombre"],
+input[type="email"],
+input[type="mensajes"],
+textarea{ width: 80%;
+padding: 0;
+border: 1px solid;
+border-radius: 12px;}
+input[type ="submit"]{
+    background-color: rgb(202, 91, 91);
+    color: rgb(22, 22, 22);
+    width: 90px;
+    border-radius: 35px;
+    cursor: cell;
+    font-size: medium;
+    font-family: cursive;
+    margin-bottom: 10px;
+    
+    &:hover{
+        background-color: brown;
+        transition-duration: .3s;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px tomato;
+    }
+}
+
+#inicio{
+   background-image: url(img/fondo.jpg);
+   padding: 50px;
+   background-attachment: fixed;
+}
+footer{background-color: rgb(255, 255, 255);
+    p {
+        color: rgb(0, 0, 0); 
+
+      }
+      
+}
+.scroll-to-top{
+    position: fixed;
+    background-color: aliceblue;
+    bottom: 20px;
+    border-radius: 30px;
+    text-align: center;
+    right: 20px;
+    color: rgb(0, 0, 0);
+    width: 50px;
+    line-height: 20px;
+    text-decoration: line-through;
+    font-size: 16px;
+    &:hover{
+        background-color: rgb(34, 0, 228);
+        transition-duration: .3s;
+        transform: scale(1.1);
+
+    }
+    
+}
+.inicio-2 {
+    h2 { color: black;}
+}
